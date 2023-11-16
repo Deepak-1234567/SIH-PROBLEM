@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .counter {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="counter">
+        <span id="count">0</span>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const counter = document.getElementById("count");
+            const targetNumber = 100; // Change this to the number you want to count up to
+            const duration = 2000; // Change this to the desired duration in milliseconds
+
+            let currentNumber = 0;
+            const increment = targetNumber / (duration / 16); // 16ms corresponds to the browser's typical frame rate
+
+            const updateCounter = () => {
+                currentNumber += increment;
+                if (currentNumber >= targetNumber) {
+                    currentNumber = targetNumber;
+                    clearInterval(counterInterval);
+                }
+                counter.textContent = Math.ceil(currentNumber);
+            };
+
+            const counterInterval = setInterval(updateCounter, 16); // Update the counter every 16ms
+        });
+    </script>
+</body>
+</html>
