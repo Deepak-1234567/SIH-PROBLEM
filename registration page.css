@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-image:url("https://thumbs.dreamstime.com/b/themis-symbol-law-modern-background-court-legal-system-justice-144410599.jpg");
+    width:600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0 0 20px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 550px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+button {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-color: black;
+    font-family: cursive;
+    border-radius: 20px;
+}
