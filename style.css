@@ -1,0 +1,226 @@
+/* Reset default styles and set a background color */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-color:#f6278040;
+}
+
+/* Style the header and navigation */
+header {
+    background-color:#333;
+    color: white;
+    padding: 10px ;
+    text-align: center;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+    margin-left:20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    font-family: cursive;
+   
+}
+
+.menu li {
+    margin-right: 20px;
+    text-align: right;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the hero section */
+.home{
+    
+}
+.hero {
+    text-align: center;
+    padding: 60px 0;
+    background-image: url('https://t3.ftcdn.net/jpg/04/45/40/12/360_F_445401212_PEDNESWvENUbesA25i8E42auVqffefxY.jpg'); 
+    background: cover;
+    font-family: cursive;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    margin-left: 230px;
+    margin-right: 5px;
+}
+
+
+.hero h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    font-family: cursive;
+}
+
+.hero p {
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: transparent;
+
+    color: white;
+    font-family: cursive;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: cursive;
+    border-radius: 20px;
+}
+.h3{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+/* Style the features section */
+.features {
+    
+
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+    margin-left: 0px;
+    font-size: 20px;
+    background-color: transparent;
+}
+.button {
+    font-size: larger;
+    margin-left: 0px;
+    font-family: cursive;
+    background-color: transparent;
+}
+.button{
+    font-size: larger;
+    margin-left: 100px;
+    font-family: cursive;
+    background-color: transparent;
+}
+.button{
+    font-size: larger;
+    margin-left: 100px;
+    font-family: cursive;
+    background-color: transparent;
+}
+
+
+
+.feature {
+    text-align: left;
+    margin: 0px;
+    background-color: transparent;
+}
+
+.feature h2 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+.footer-hero {
+    margin: 46px 280px 20px 0;
+    position: relative;
+}
+.footer-hero {
+    flex-direction: row;
+    align-self: flex-start;
+    align-items: stretch;
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    position: static;
+
+    font-size: 30px;
+    color:darkkhaki;
+    font-family: cursive;
+}
+.numbers-counter {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+.numbers-counter {
+    color: #70b79e;
+    letter-spacing: 1px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.body {
+    background-color: transparent;
+    margin-top: 100px;
+    font-family: Raleway,sans-serif;
+    font-weight: 400;
+}
+.body {
+    color: var(--medium-orchid);
+    font-family: Raleway,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+body {
+    min-height: 100%;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* Style the contact section */
+.contact {
+    text-align: center;
+    background-color:darkslategray;
+    color: white;
+    padding: 60px 0;
+    margin-top: 40px;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin: 10px 0;
+    color: white;
+    font-family: cursive;
+}
+
+/* Style the footer */
+footer {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 0px;
+    border-radius: 5px;
+
+    text-decoration:none;
+    
+}
+
